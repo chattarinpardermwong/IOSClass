@@ -32,6 +32,14 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="39"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hGO-BS-Svd">
+                                <rect key="frame" x="282" y="91" width="32" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Next"/>
+                                <connections>
+                                    <segue destination="KqU-Af-Frz" kind="show" id="v4n-4R-KFv"/>
+                                </connections>
+                            </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="d2d-pb-3p7">
                                 <rect key="frame" x="164" y="145" width="46" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -84,4 +92,7 @@
             <point key="canvasLocation" x="784.79999999999995" y="33.733133433283363"/>
         </scene>
     </scenes>
+    <inferredMetricsTieBreakers>
+        <segue reference="jzp-L2-Gs5"/>
+    </inferredMetricsTieBreakers>
 </document>
