@@ -1,2 +1,2 @@
 # IOSClass
-For teaching IOS class at KU
+For studying IOS class at KU
